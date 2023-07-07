@@ -1,0 +1,103 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/pixel_art/nope.tres" type="DynamicFont" id=1]
+[ext_resource path="res://addons/basic_options/options screens/Graphics and Sound.gd" type="Script" id=3]
+
+[node name="Graphics and Sound" type="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+margin_right = 492.0
+margin_bottom = 268.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+margin_top = 45.0
+margin_right = 492.0
+margin_bottom = 61.0
+custom_fonts/font = ExtResource( 1 )
+text = "Volume"
+align = 1
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
+margin_top = 65.0
+margin_right = 492.0
+margin_bottom = 79.0
+text = "Master"
+align = 1
+
+[node name="master_volume" type="HSlider" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 146.0
+margin_top = 83.0
+margin_right = 346.0
+margin_bottom = 99.0
+rect_min_size = Vector2( 200, 0 )
+size_flags_horizontal = 4
+
+[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer"]
+margin_top = 103.0
+margin_right = 492.0
+margin_bottom = 117.0
+text = "Sound Effects"
+align = 1
+
+[node name="effects_volume" type="HSlider" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 146.0
+margin_top = 121.0
+margin_right = 346.0
+margin_bottom = 137.0
+rect_min_size = Vector2( 200, 0 )
+size_flags_horizontal = 4
+
+[node name="Label4" type="Label" parent="MarginContainer/VBoxContainer"]
+margin_top = 141.0
+margin_right = 492.0
+margin_bottom = 155.0
+text = "Music"
+align = 1
+
+[node name="music_volume" type="HSlider" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 146.0
+margin_top = 159.0
+margin_right = 346.0
+margin_bottom = 175.0
+rect_min_size = Vector2( 200, 0 )
+size_flags_horizontal = 4
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+margin_left = 146.0
+margin_top = 179.0
+margin_right = 346.0
+margin_bottom = 199.0
+rect_min_size = Vector2( 200, 20 )
+size_flags_horizontal = 4
+
+[node name="fullscreen" type="Button" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 207.0
+margin_top = 203.0
+margin_right = 285.0
+margin_bottom = 223.0
+size_flags_horizontal = 4
+toggle_mode = true
+text = "Fullscreen"
+
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/master_volume" to="." method="_on_master_volume_value_changed"]
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/effects_volume" to="." method="_on_effects_volume_value_changed"]
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/music_volume" to="." method="_on_music_volume_value_changed"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/fullscreen" to="." method="_on_fullscreen_toggled"]
