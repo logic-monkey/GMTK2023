@@ -20,6 +20,11 @@ _global_script_classes=[ {
 "path": "res://addons/aseprite_importer/classes/AsepriteImporter.gd"
 }, {
 "base": "Node",
+"class": "CameraControls",
+"language": "GDScript",
+"path": "res://addons/2d_cam/camera_controls.gd"
+}, {
+"base": "Node",
 "class": "EditorTheme",
 "language": "GDScript",
 "path": "res://addons/aseprite_importer/classes/EditorTheme.gd"
@@ -57,6 +62,7 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "AsepriteImportData": "",
 "AsepriteImporter": "",
+"CameraControls": "",
 "EditorTheme": "",
 "PlayerController": "res://addons/virtual_gamepad/player control icon.svg",
 "SharedPhysics": "res://addons/2d_phys/phys.svg",
@@ -81,6 +87,7 @@ _FADER="*res://addons/screen_fader/fader.tscn"
 _OPT="*res://addons/basic_options/options.tscn"
 _IMP="*res://addons/input_imp/imp.gd"
 _MUSIC="*res://addons/music_box/music_box.tscn"
+_CAM="*res://addons/2d_cam/camera_controls.gd"
 
 [display]
 
@@ -93,7 +100,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/2d_phys/plugin.cfg", "res://addons/aseprite_importer/plugin.cfg", "res://addons/basic_options/plugin.cfg", "res://addons/common_tools/plugin.cfg", "res://addons/fsm/plugin.cfg", "res://addons/init/plugin.cfg", "res://addons/input_imp/plugin.cfg", "res://addons/music_box/plugin.cfg", "res://addons/pixel_art/plugin.cfg", "res://addons/screen_fader/plugin.cfg", "res://addons/theme_b/plugin.cfg", "res://addons/title_and_credits/plugin.cfg", "res://addons/virtual_gamepad/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/2d_cam/plugin.cfg", "res://addons/2d_phys/plugin.cfg", "res://addons/aseprite_importer/plugin.cfg", "res://addons/basic_options/plugin.cfg", "res://addons/common_tools/plugin.cfg", "res://addons/fsm/plugin.cfg", "res://addons/init/plugin.cfg", "res://addons/input_imp/plugin.cfg", "res://addons/music_box/plugin.cfg", "res://addons/pixel_art/plugin.cfg", "res://addons/screen_fader/plugin.cfg", "res://addons/theme_b/plugin.cfg", "res://addons/title_and_credits/plugin.cfg", "res://addons/virtual_gamepad/plugin.cfg" )
 
 [gui]
 

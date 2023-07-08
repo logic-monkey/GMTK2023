@@ -42,14 +42,14 @@ collision_mask = 32
 texture = ExtResource( 1 )
 offset = Vector2( -0.5, 1 )
 region_enabled = true
-region_rect = Rect2( 0, 40, 9, 20 )
+region_rect = Rect2( 19, 0, 19, 20 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 playback_speed = -1.0
 anims/idle = SubResource( 1 )
 script = ExtResource( 2 )
 randomize_start = true
-maximum_speed_variance = 0.25
+maximum_speed_variance = 0.1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )
