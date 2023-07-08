@@ -24,6 +24,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/2d_cam/camera_controls.gd"
 }, {
+"base": "Area2D",
+"class": "CameraRoom",
+"language": "GDScript",
+"path": "res://addons/2d_cam/CameraRoom.gd"
+}, {
 "base": "Node",
 "class": "EditorTheme",
 "language": "GDScript",
@@ -63,6 +68,7 @@ _global_script_class_icons={
 "AsepriteImportData": "",
 "AsepriteImporter": "",
 "CameraControls": "",
+"CameraRoom": "",
 "EditorTheme": "",
 "PlayerController": "res://addons/virtual_gamepad/player control icon.svg",
 "SharedPhysics": "res://addons/2d_phys/phys.svg",
@@ -179,8 +185,10 @@ vp_jump={
 2d_physics/layer_1="solid"
 2d_physics/layer_2="collectables"
 2d_physics/layer_3="hitboxen"
+2d_physics/layer_4="camera fobs"
 2d_physics/layer_6="collecters"
 2d_physics/layer_7="hurtboxen"
+2d_physics/layer_8="camera zones"
 
 [physics]
 

@@ -3,6 +3,8 @@ class_name CameraControls
 
 var dolly setget set_target, get_target
 
+var main: Camera2D
+
 func get_target():
 	return dolly
 	
