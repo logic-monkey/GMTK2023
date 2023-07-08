@@ -21,6 +21,6 @@ text = "This is the temporary copout where I tell you the controls instead of le
 
 Enter brings up the options menu in-game.
 
-As a general rule, I try to make all standard input modes work as expected. So try the arrow keys, WASD, the sticks on your gamepad, or the DPad for movement. Failing that, click on stuff."
+WASD or arrow keys to move, Space to Jump."
 valign = 1
 autowrap = true

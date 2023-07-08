@@ -80,6 +80,7 @@ _INI="*res://addons/init/init.tscn"
 _FADER="*res://addons/screen_fader/fader.tscn"
 _OPT="*res://addons/basic_options/options.tscn"
 _IMP="*res://addons/input_imp/imp.gd"
+_MUSIC="*res://addons/music_box/music_box.tscn"
 
 [display]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://princess/princess.png" type="Texture" id=1]
 [ext_resource path="res://addons/virtual_gamepad/virtualbutton.gd" type="Script" id=2]
@@ -9,6 +9,14 @@
 [ext_resource path="res://princess/walk.gd" type="Script" id=7]
 [ext_resource path="res://addons/2d_phys/shared_physics.gd" type="Script" id=8]
 [ext_resource path="res://princess/airborn.gd" type="Script" id=9]
+[ext_resource path="res://princess/jump.wav" type="AudioStream" id=10]
+[ext_resource path="res://princess/bump.wav" type="AudioStream" id=11]
+
+[sub_resource type="AudioStreamRandomPitch" id=9]
+audio_stream = ExtResource( 10 )
+
+[sub_resource type="AudioStreamRandomPitch" id=10]
+audio_stream = ExtResource( 11 )
 
 [sub_resource type="Animation" id=1]
 resource_name = "falling"
@@ -213,6 +221,17 @@ height = 22.0
 [node name="princess" type="KinematicBody2D"]
 z_index = 5
 
+[node name="jump_fx" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+position = Vector2( 0, -7 )
+stream = SubResource( 9 )
+bus = "effects"
+
+[node name="bump_fx" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+stream = SubResource( 10 )
+bus = "effects"
+
 [node name="SharedPhysics" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource( 8 )
@@ -262,7 +281,7 @@ script = ExtResource( 3 )
 [node name="walk" type="Node" parent="action_machine"]
 script = ExtResource( 7 )
 walk_speed_threshold = 120.0
-walk_acceleration = 5.0
+walk_acceleration = 7.0
 
 [node name="airborn" type="Node" parent="action_machine"]
 script = ExtResource( 9 )

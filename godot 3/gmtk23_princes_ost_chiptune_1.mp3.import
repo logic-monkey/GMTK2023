@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gmtk23_princes_ost_chiptune_1.mp3-596a3d0fdda2d74ff154bc5051814895.mp3str"
+
+[deps]
+
+source_file="res://gmtk23_princes_ost_chiptune_1.mp3"
+dest_files=[ "res://.import/gmtk23_princes_ost_chiptune_1.mp3-596a3d0fdda2d74ff154bc5051814895.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

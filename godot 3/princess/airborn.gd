@@ -6,6 +6,7 @@ func enter(_msg: Dictionary = {}):
 	if "jump" in _msg:
 		jumping = true
 		$"%SharedPhysics".velocity_cache.y = -jump_strength
+		$"%jump_fx".play()
 		$"%AnimationPlayer".play("into_jump")
 		yield($"%AnimationPlayer","animation_finished")
 		$"%AnimationPlayer".play("rising")
@@ -39,6 +40,7 @@ func phys(_delta: float):
 	
 	$"%SharedPhysics".move_owner(_delta, accel, drag_multiplier, grav)
 	if $"%SharedPhysics".body.is_on_floor():
+		$"%bump_fx".play()
 		$"%AnimationPlayer".play("land")
 		transition("idle")
 		return
