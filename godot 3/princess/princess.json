@@ -265,11 +265,11 @@
   "scale": "1",
   "frameTags": [
    { "name": "idle 1", "from": 1, "to": 1, "direction": "forward" },
-   { "name": "walk_loop", "from": 2, "to": 21, "direction": "forward" },
+   { "name": "walk", "from": 2, "to": 21, "direction": "forward" },
    { "name": "into_jump", "from": 23, "to": 24, "direction": "forward" },
-   { "name": "rising_loop", "from": 25, "to": 26, "direction": "forward" },
+   { "name": "rising", "from": 25, "to": 26, "direction": "forward" },
    { "name": "rise_to_fall", "from": 27, "to": 27, "direction": "forward" },
-   { "name": "falling_loop", "from": 28, "to": 29, "direction": "forward" },
+   { "name": "falling", "from": 28, "to": 29, "direction": "forward" },
    { "name": "land", "from": 30, "to": 30, "direction": "forward" }
   ],
   "layers": [

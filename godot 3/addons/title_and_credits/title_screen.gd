@@ -2,8 +2,8 @@ extends Control
 
 func _ready():
 	_FADER.FadeIn()
-	_MUSIC.SwitchToSong(preload("res://gmtk23_princes_ost_chiptune_1.mp3"))
 	$"%start".grab_focus()
+	_MUSIC.SwitchToSong(preload("res://gmtk23_princes_ost_chiptune_1.mp3"))
 	
 	
 

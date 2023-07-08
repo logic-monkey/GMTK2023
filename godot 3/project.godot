@@ -87,13 +87,13 @@ _MUSIC="*res://addons/music_box/music_box.tscn"
 window/size/width=512
 window/size/height=288
 window/size/test_width=1024
-window/size/test_height=577
+window/size/test_height=576
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/2d_phys/plugin.cfg", "res://addons/aseprite_importer/plugin.cfg", "res://addons/basic_options/plugin.cfg", "res://addons/fsm/plugin.cfg", "res://addons/init/plugin.cfg", "res://addons/input_imp/plugin.cfg", "res://addons/music_box/plugin.cfg", "res://addons/pixel_art/plugin.cfg", "res://addons/screen_fader/plugin.cfg", "res://addons/theme_b/plugin.cfg", "res://addons/title_and_credits/plugin.cfg", "res://addons/virtual_gamepad/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/2d_phys/plugin.cfg", "res://addons/aseprite_importer/plugin.cfg", "res://addons/basic_options/plugin.cfg", "res://addons/common_tools/plugin.cfg", "res://addons/fsm/plugin.cfg", "res://addons/init/plugin.cfg", "res://addons/input_imp/plugin.cfg", "res://addons/music_box/plugin.cfg", "res://addons/pixel_art/plugin.cfg", "res://addons/screen_fader/plugin.cfg", "res://addons/theme_b/plugin.cfg", "res://addons/title_and_credits/plugin.cfg", "res://addons/virtual_gamepad/plugin.cfg" )
 
 [gui]
 
@@ -166,6 +166,14 @@ vp_jump={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":2,"pressure":0.0,"pressed":false,"script":null)
  ]
 }
+
+[layer_names]
+
+2d_physics/layer_1="solid"
+2d_physics/layer_2="collectables"
+2d_physics/layer_3="hitboxen"
+2d_physics/layer_6="collecters"
+2d_physics/layer_7="hurtboxen"
 
 [physics]
 

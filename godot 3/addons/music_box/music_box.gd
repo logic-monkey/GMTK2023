@@ -38,6 +38,11 @@ func SwitchToSong(song, fade_time:float = 0.0):
 		FadeMusicOut(fade_time)
 		yield(self, "faded_out")
 	stop()
+	if not _INI.is_loaded:
+		yield(_INI,"loaded")
+		yield(get_tree(), "idle_frame")
+		yield(get_tree(), "idle_frame")
+
 	SetFadeVolume(1)
 	stream = song_buffer
 	play()

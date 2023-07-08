@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://levels/castle walls.tres" type="TileSet" id=1]
 [ext_resource path="res://princess/princess.tscn" type="PackedScene" id=2]
+[ext_resource path="res://coin/coin.tscn" type="PackedScene" id=3]
 
 [node name="test area" type="Node2D"]
 
@@ -14,3 +15,17 @@ tile_data = PoolIntArray( 65534, 2, 0, 65535, 1, 0, 0, 2, 0, 1, 2, 0, 2, 4, 0, 3
 
 [node name="princess" parent="." instance=ExtResource( 2 )]
 position = Vector2( 124, 78 )
+
+[node name="coins" type="Node2D" parent="."]
+
+[node name="coin" parent="coins" instance=ExtResource( 3 )]
+position = Vector2( 288, 184 )
+
+[node name="coin2" parent="coins" instance=ExtResource( 3 )]
+position = Vector2( 312, 184 )
+
+[node name="coin3" parent="coins" instance=ExtResource( 3 )]
+position = Vector2( 408, 176 )
+
+[node name="coin4" parent="coins" instance=ExtResource( 3 )]
+position = Vector2( 432, 176 )

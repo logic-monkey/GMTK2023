@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://addons/pixel_art/pixel.theme" type="Theme" id=1]
 [ext_resource path="res://addons/title_and_credits/title_screen.gd" type="Script" id=2]
+[ext_resource path="res://addons/common_tools/hide_on_web.gd" type="Script" id=3]
 
 [node name="pixel_title" type="Control"]
 anchor_right = 1.0
@@ -73,6 +74,7 @@ margin_right = 255.0
 margin_bottom = 202.0
 size_flags_horizontal = 4
 text = "Exit"
+script = ExtResource( 3 )
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/options" to="." method="_on_options_pressed"]

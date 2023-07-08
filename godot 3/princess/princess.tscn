@@ -243,9 +243,9 @@ unique_name_in_owner = true
 [node name="Sprite" type="Sprite" parent="graphic"]
 position = Vector2( 0, -40 )
 texture = ExtResource( 1 )
-offset = Vector2( 0, 13.5 )
+offset = Vector2( -2, 14 )
 region_enabled = true
-region_rect = Rect2( 87, 104, 42, 53 )
+region_rect = Rect2( 99, 0, 48, 52 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 unique_name_in_owner = true
