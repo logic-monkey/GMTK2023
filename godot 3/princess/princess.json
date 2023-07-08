@@ -1,0 +1,281 @@
+{ "frames": {
+   "princess 0.aseprite": {
+    "frame": { "x": 46, "y": 57, "w": 41, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 32, "w": 41, "h": 56 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 1.aseprite": {
+    "frame": { "x": 46, "y": 57, "w": 41, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 32, "w": 41, "h": 56 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 500
+   },
+   "princess 2.aseprite": {
+    "frame": { "x": 99, "y": 52, "w": 46, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 46, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 3.aseprite": {
+    "frame": { "x": 147, "y": 50, "w": 45, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 34, "w": 45, "h": 54 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 4.aseprite": {
+    "frame": { "x": 99, "y": 0, "w": 48, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 48, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 5.aseprite": {
+    "frame": { "x": 0, "y": 57, "w": 46, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 38, "w": 46, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 6.aseprite": {
+    "frame": { "x": 99, "y": 52, "w": 46, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 46, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 7.aseprite": {
+    "frame": { "x": 147, "y": 50, "w": 45, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 34, "w": 45, "h": 54 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 8.aseprite": {
+    "frame": { "x": 99, "y": 0, "w": 48, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 48, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 9.aseprite": {
+    "frame": { "x": 0, "y": 57, "w": 46, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 38, "w": 46, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 10.aseprite": {
+    "frame": { "x": 99, "y": 52, "w": 46, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 46, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 11.aseprite": {
+    "frame": { "x": 147, "y": 50, "w": 45, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 34, "w": 45, "h": 54 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 12.aseprite": {
+    "frame": { "x": 99, "y": 0, "w": 48, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 48, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 13.aseprite": {
+    "frame": { "x": 0, "y": 57, "w": 46, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 38, "w": 46, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 14.aseprite": {
+    "frame": { "x": 99, "y": 52, "w": 46, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 46, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 15.aseprite": {
+    "frame": { "x": 147, "y": 50, "w": 45, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 34, "w": 45, "h": 54 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 16.aseprite": {
+    "frame": { "x": 99, "y": 0, "w": 48, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 48, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 17.aseprite": {
+    "frame": { "x": 0, "y": 57, "w": 46, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 38, "w": 46, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 18.aseprite": {
+    "frame": { "x": 99, "y": 52, "w": 46, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 46, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 19.aseprite": {
+    "frame": { "x": 147, "y": 50, "w": 45, "h": 54 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 34, "w": 45, "h": 54 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 20.aseprite": {
+    "frame": { "x": 99, "y": 0, "w": 48, "h": 52 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 38, "y": 36, "w": 48, "h": 52 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 21.aseprite": {
+    "frame": { "x": 0, "y": 57, "w": 46, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 40, "y": 38, "w": 46, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 22.aseprite": {
+    "frame": { "x": 46, "y": 57, "w": 41, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 32, "w": 41, "h": 56 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 23.aseprite": {
+    "frame": { "x": 147, "y": 0, "w": 49, "h": 50 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 39, "y": 39, "w": 49, "h": 50 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 50
+   },
+   "princess 24.aseprite": {
+    "frame": { "x": 36, "y": 113, "w": 32, "h": 58 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 30, "w": 32, "h": 58 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 50
+   },
+   "princess 25.aseprite": {
+    "frame": { "x": 0, "y": 107, "w": 36, "h": 55 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 34, "w": 36, "h": 55 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 26.aseprite": {
+    "frame": { "x": 68, "y": 157, "w": 35, "h": 53 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 34, "w": 35, "h": 53 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 27.aseprite": {
+    "frame": { "x": 129, "y": 104, "w": 40, "h": 55 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 42, "y": 31, "w": 40, "h": 55 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 28.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 50, "h": 57 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 32, "w": 50, "h": 57 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 29.aseprite": {
+    "frame": { "x": 50, "y": 0, "w": 49, "h": 57 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 35, "y": 32, "w": 49, "h": 57 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 30.aseprite": {
+    "frame": { "x": 87, "y": 104, "w": 42, "h": 53 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 43, "y": 35, "w": 42, "h": 53 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   },
+   "princess 31.aseprite": {
+    "frame": { "x": 46, "y": 57, "w": 41, "h": 56 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 41, "y": 32, "w": 41, "h": 56 },
+    "sourceSize": { "w": 128, "h": 96 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "princess.png",
+  "format": "RGBA8888",
+  "size": { "w": 196, "h": 210 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle 1", "from": 1, "to": 1, "direction": "forward" },
+   { "name": "walk_loop", "from": 2, "to": 21, "direction": "forward" },
+   { "name": "into_jump", "from": 23, "to": 24, "direction": "forward" },
+   { "name": "rising_loop", "from": 25, "to": 26, "direction": "forward" },
+   { "name": "rise_to_fall", "from": 27, "to": 27, "direction": "forward" },
+   { "name": "falling_loop", "from": 28, "to": 29, "direction": "forward" },
+   { "name": "land", "from": 30, "to": 30, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

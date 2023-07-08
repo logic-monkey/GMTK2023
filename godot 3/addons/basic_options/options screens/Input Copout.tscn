@@ -19,6 +19,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 7
 text = "This is the temporary copout where I tell you the controls instead of letting you change them, as a proper game (and this game perhaps some day) would permit you to do.
 
+Enter brings up the options menu in-game.
+
 As a general rule, I try to make all standard input modes work as expected. So try the arrow keys, WASD, the sticks on your gamepad, or the DPad for movement. Failing that, click on stuff."
 valign = 1
 autowrap = true
