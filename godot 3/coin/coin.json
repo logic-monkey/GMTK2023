@@ -1,22 +1,22 @@
 { "frames": {
    "coin 0.aseprite": {
-    "frame": { "x": 0, "y": 0, "w": 19, "h": 20 },
+    "frame": { "x": 38, "y": 0, "w": 15, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 2, "y": 3, "w": 19, "h": 20 },
+    "spriteSourceSize": { "x": 4, "y": 3, "w": 15, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
    "coin 1.aseprite": {
-    "frame": { "x": 38, "y": 0, "w": 15, "h": 20 },
+    "frame": { "x": 42, "y": 38, "w": 9, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 5, "y": 3, "w": 15, "h": 20 },
+    "spriteSourceSize": { "x": 7, "y": 3, "w": 9, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
    "coin 2.aseprite": {
-    "frame": { "x": 45, "y": 20, "w": 9, "h": 20 },
+    "frame": { "x": 51, "y": 38, "w": 9, "h": 20 },
     "rotated": false,
     "trimmed": true,
     "spriteSourceSize": { "x": 8, "y": 3, "w": 9, "h": 20 },
@@ -24,14 +24,22 @@
     "duration": 100
    },
    "coin 3.aseprite": {
-    "frame": { "x": 0, "y": 40, "w": 9, "h": 20 },
+    "frame": { "x": 53, "y": 0, "w": 15, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 7, "y": 3, "w": 9, "h": 20 },
+    "spriteSourceSize": { "x": 5, "y": 3, "w": 15, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
    "coin 4.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 19, "h": 20 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 2, "y": 3, "w": 19, "h": 20 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 100
+   },
+   "coin 5.aseprite": {
     "frame": { "x": 0, "y": 20, "w": 15, "h": 20 },
     "rotated": false,
     "trimmed": true,
@@ -39,24 +47,16 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "coin 5.aseprite": {
-    "frame": { "x": 19, "y": 0, "w": 19, "h": 20 },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": { "x": 2, "y": 3, "w": 19, "h": 20 },
-    "sourceSize": { "w": 24, "h": 24 },
-    "duration": 100
-   },
    "coin 6.aseprite": {
-    "frame": { "x": 15, "y": 20, "w": 15, "h": 20 },
+    "frame": { "x": 42, "y": 38, "w": 9, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 5, "y": 3, "w": 15, "h": 20 },
+    "spriteSourceSize": { "x": 7, "y": 3, "w": 9, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
    "coin 7.aseprite": {
-    "frame": { "x": 45, "y": 20, "w": 9, "h": 20 },
+    "frame": { "x": 51, "y": 38, "w": 9, "h": 20 },
     "rotated": false,
     "trimmed": true,
     "spriteSourceSize": { "x": 8, "y": 3, "w": 9, "h": 20 },
@@ -64,20 +64,92 @@
     "duration": 100
    },
    "coin 8.aseprite": {
-    "frame": { "x": 0, "y": 40, "w": 9, "h": 20 },
+    "frame": { "x": 15, "y": 20, "w": 15, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 7, "y": 3, "w": 9, "h": 20 },
+    "spriteSourceSize": { "x": 5, "y": 3, "w": 15, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
    "coin 9.aseprite": {
-    "frame": { "x": 30, "y": 20, "w": 15, "h": 20 },
+    "frame": { "x": 19, "y": 0, "w": 19, "h": 20 },
     "rotated": false,
     "trimmed": true,
-    "spriteSourceSize": { "x": 4, "y": 3, "w": 15, "h": 20 },
+    "spriteSourceSize": { "x": 2, "y": 3, "w": 19, "h": 20 },
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
+   },
+   "coin 10.aseprite": {
+    "frame": { "x": 68, "y": 0, "w": 1, "h": 1 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1, "h": 1 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 11.aseprite": {
+    "frame": { "x": 60, "y": 38, "w": 9, "h": 10 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 7, "y": 6, "w": 9, "h": 10 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 12.aseprite": {
+    "frame": { "x": 30, "y": 38, "w": 12, "h": 16 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 7, "y": 2, "w": 12, "h": 16 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 13.aseprite": {
+    "frame": { "x": 61, "y": 20, "w": 14, "h": 18 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 5, "y": 2, "w": 14, "h": 18 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 14.aseprite": {
+    "frame": { "x": 30, "y": 20, "w": 16, "h": 18 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 4, "y": 3, "w": 16, "h": 18 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 15.aseprite": {
+    "frame": { "x": 46, "y": 20, "w": 15, "h": 18 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 5, "y": 1, "w": 15, "h": 18 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 16.aseprite": {
+    "frame": { "x": 0, "y": 40, "w": 17, "h": 9 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 5, "y": 10, "w": 17, "h": 9 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 17.aseprite": {
+    "frame": { "x": 17, "y": 40, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 11, "w": 9, "h": 9 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
+   },
+   "coin 18.aseprite": {
+    "frame": { "x": 68, "y": 0, "w": 1, "h": 1 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 1, "h": 1 },
+    "sourceSize": { "w": 24, "h": 24 },
+    "duration": 75
    }
  },
  "meta": {
@@ -85,10 +157,11 @@
   "version": "1.2.40-x64",
   "image": "coin.png",
   "format": "RGBA8888",
-  "size": { "w": 54, "h": 60 },
+  "size": { "w": 75, "h": 58 },
   "scale": "1",
   "frameTags": [
-   { "name": "idle", "from": 0, "to": 9, "direction": "forward" }
+   { "name": "idle", "from": 0, "to": 9, "direction": "forward" },
+   { "name": "collect", "from": 10, "to": 18, "direction": "forward" }
   ],
   "layers": [
    { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }

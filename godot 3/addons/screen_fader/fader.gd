@@ -35,7 +35,8 @@ func FadeIn():
 	emit_signal("faded_in")
 	
 signal scene_changed
-func FadeTo(scene):
+func FadeTo(scene, color = Color.black):
+	$color.color = color
 	var tree = get_tree()
 	FadeOut()
 	yield(self, "faded_out")

@@ -80,7 +80,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="GMTK 2023"
+config/name="Royal Pain"
 run/main_scene="res://addons/pixel_art/pixel_title.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="EHE"
@@ -94,6 +94,7 @@ _OPT="*res://addons/basic_options/options.tscn"
 _IMP="*res://addons/input_imp/imp.gd"
 _MUSIC="*res://addons/music_box/music_box.tscn"
 _CAM="*res://addons/2d_cam/camera_controls.gd"
+_GM="*res://gamemanager.gd"
 
 [display]
 

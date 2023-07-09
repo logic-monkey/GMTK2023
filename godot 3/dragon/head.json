@@ -1,0 +1,108 @@
+{ "frames": {
+   "dragon 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 600
+   },
+   "dragon 1.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 300
+   },
+   "dragon 2.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 300
+   },
+   "dragon 3.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 600
+   },
+   "dragon 4.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 300
+   },
+   "dragon 5.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 300
+   },
+   "dragon 6.ase": {
+    "frame": { "x": 0, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 100
+   },
+   "dragon 7.ase": {
+    "frame": { "x": 118, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 150
+   },
+   "dragon 8.ase": {
+    "frame": { "x": 236, "y": 0, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 50
+   },
+   "dragon 9.ase": {
+    "frame": { "x": 0, "y": 91, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 50
+   },
+   "dragon 10.ase": {
+    "frame": { "x": 118, "y": 91, "w": 118, "h": 91 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 261, "y": 176, "w": 118, "h": 91 },
+    "sourceSize": { "w": 512, "h": 288 },
+    "duration": 500
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "head.png",
+  "format": "RGBA8888",
+  "size": { "w": 354, "h": 182 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle", "from": 0, "to": 5, "direction": "forward" },
+   { "name": "awake", "from": 6, "to": 10, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "dragon head", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

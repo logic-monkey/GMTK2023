@@ -1,9 +1,29 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://gameplay.gd" type="Script" id=1]
-[ext_resource path="res://levels/test area.tscn" type="PackedScene" id=2]
+[ext_resource path="res://levels/starting room.tscn" type="PackedScene" id=2]
 [ext_resource path="res://addons/2d_cam/cameraman.gd" type="Script" id=3]
 [ext_resource path="res://addons/2d_cam/maincam.gd" type="Script" id=4]
+[ext_resource path="res://addons/2d_cam/CameraRoom.tscn" type="PackedScene" id=5]
+[ext_resource path="res://levels/verticle shaft.tscn" type="PackedScene" id=6]
+[ext_resource path="res://dragon/dragon.tscn" type="PackedScene" id=7]
+[ext_resource path="res://levels/gauntlet.tscn" type="PackedScene" id=8]
+[ext_resource path="res://exit.tscn" type="PackedScene" id=9]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 310.5, 138 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 461.5, 131 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 212, 372 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 524, 120 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 52, 24 )
 
 [node name="gameplay" type="Control"]
 anchor_right = 1.0
@@ -11,10 +31,10 @@ anchor_bottom = 1.0
 mouse_filter = 2
 script = ExtResource( 1 )
 
-[node name="test area" parent="." instance=ExtResource( 2 )]
+[node name="dragon" parent="." instance=ExtResource( 7 )]
 
 [node name="dolly" type="Node2D" parent="."]
-position = Vector2( 150, 144 )
+position = Vector2( 190, 144 )
 script = ExtResource( 3 )
 
 [node name="Camera2D" type="Camera2D" parent="dolly"]
@@ -25,6 +45,54 @@ limit_right = 1024
 limit_bottom = 288
 limit_smoothed = true
 smoothing_enabled = true
-editor_draw_limits = true
-editor_draw_drag_margin = true
+smoothing_speed = 3.0
+editor_draw_screen = false
 script = ExtResource( 4 )
+
+[node name="starting area" parent="." instance=ExtResource( 2 )]
+
+[node name="starting room 1" parent="starting area" instance=ExtResource( 5 )]
+position = Vector2( 256, 144 )
+bounds = Rect2( -288, -144, 748, 288 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="starting area/starting room 1"]
+modulate = Color( 1, 1, 1, 0.501961 )
+position = Vector2( 127.5, -3 )
+shape = SubResource( 1 )
+
+[node name="starting room 2" parent="starting area" instance=ExtResource( 5 )]
+position = Vector2( -472, 144 )
+bounds = Rect2( -600, -144, 1540, 288 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="starting area/starting room 2"]
+position = Vector2( 21.5, 0 )
+shape = SubResource( 2 )
+
+[node name="verticle shaft" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1416, -72 )
+
+[node name="shaft room" parent="verticle shaft" instance=ExtResource( 5 )]
+position = Vector2( 248, -40 )
+bounds = Rect2( -256, -500, 512, 868 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="verticle shaft/shaft room"]
+position = Vector2( 4, -20 )
+shape = SubResource( 3 )
+
+[node name="gauntlet" parent="." instance=ExtResource( 8 )]
+position = Vector2( -888, -504 )
+
+[node name="CameraRoom" parent="gauntlet" instance=ExtResource( 5 )]
+position = Vector2( 504, 136 )
+bounds = Rect2( -768, -144, 1328, 288 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gauntlet/CameraRoom"]
+position = Vector2( 20, 16 )
+shape = SubResource( 4 )
+
+[node name="exit" parent="gauntlet" instance=ExtResource( 9 )]
+position = Vector2( 1128, 112 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gauntlet/exit"]
+position = Vector2( 20, 8 )
+shape = SubResource( 5 )

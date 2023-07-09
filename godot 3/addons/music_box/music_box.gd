@@ -14,9 +14,10 @@ func LoadSong(song: String):
 signal faded_out
 func FadeMusicOut(time := 0.25):
 	var tween = get_tree().create_tween()
-	tween.tween_method(self,"SetFadeVolume",1,0, time)\
+	tween.tween_method(self,"SetFadeVolume",1.0,0.0, time)\
 			.set_ease(Tween.EASE_IN_OUT).set_trans(Tween.TRANS_CUBIC)
 	yield(tween,"finished")
+	stop()
 	emit_signal("faded_out")
 	
 func SetFadeVolume(v:float):
@@ -25,11 +26,12 @@ func SetFadeVolume(v:float):
 	
 func SwitchToSong(song, fade_time:float = 0.0):
 	if song is String:
-		if stream and song == stream.resource_path: return
+		if stream and song == stream.resource_path\
+				and playing: return
 		LoadSong(song)
 		if song_buffer == null: return
 	elif song is AudioStream:
-		if song == stream: return
+		if song == stream and playing: return
 		song_buffer = song
 	else:
 		return
